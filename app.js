@@ -1,7 +1,7 @@
 function search(category, callback) {
     $.ajax({
         type: "GET",
-        url: "http://swapi.co/api/" + category,
+        url: "https://swapi.co/api/" + category,
         success: callback
     });
 }
